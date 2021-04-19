@@ -13,9 +13,7 @@ export const Navbar = (): ReactElement => {
       <div className='layout-navbar-articleref'>
         <p>
           Este repositorio hace referencia a el siguiente {'   '}
-          <a href='https://marcomesen.com/blog/aprende-graphql-de-0-a-basico-con-reactjs-apolloclient-and-typescript-tutorial'>
-            articulo
-          </a>
+          <a href='https://marcomesen.com/blog/'>articulo</a>
         </p>
       </div>
     </header>
