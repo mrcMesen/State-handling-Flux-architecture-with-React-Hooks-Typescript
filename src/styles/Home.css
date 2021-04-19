@@ -1,0 +1,39 @@
+.Home {
+  height: 100%;
+  max-width: 1160px;
+  margin: auto;
+}
+.Add-Button {
+  display: flex;
+  justify-content: flex-end;
+  padding: 12px;
+}
+.PeopleList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.PersonCard {
+  border-radius: 4px;
+  margin: 12px;
+  padding: 20px 60px;
+  -webkit-box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.4);
+  box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.4);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.PersonCard-Name {
+  font-size: 2em;
+}
+
+.PersonCard-Button {
+  font-size: 14px;
+  margin-top: 20px;
+  background: none;
+  padding: 4px 8px;
+  border: 0.5px solid;
+  color: rgba(0, 0, 0, 0.7);
+}

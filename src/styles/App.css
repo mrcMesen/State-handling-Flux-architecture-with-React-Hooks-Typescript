@@ -6,7 +6,7 @@
 }
 
 .main-content {
-  min-height: 50vh;
+  min-height: 75vh;
 }
 
 .bg-gradiant {
@@ -60,45 +60,4 @@ a {
   justify-content: center;
   align-items: center;
   color: #fff;
-}
-
-.result {
-  text-align: center;
-}
-
-.person-list {
-  margin: 40px 80px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-.person-list > a {
-  text-decoration: none;
-}
-
-.person-card {
-  padding: 10px 15px;
-  background-color: #adc7fa;
-  color: #282c34;
-  width: 250px;
-  margin: 10px;
-  border-radius: 5px;
-  display: flex;
-  flex-direction: column;
-}
-.person-card-description {
-  padding: 4px;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-
-.person-details {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.person-details > span {
-  padding: 4px;
 }

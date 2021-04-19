@@ -1,0 +1,19 @@
+.AddPerson {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.AddPerson-Form {
+  width: 300px;
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 1em;
+  flex-direction: column;
+  justify-content: center;
+}
+.AddPerson-Form-Group {
+  display: flex;
+  flex-direction: column;
+}
